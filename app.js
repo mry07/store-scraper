@@ -3,7 +3,7 @@ import AppStoreScraper from "app-store-scraper";
 import GooglePlayScraper from "google-play-scraper";
 
 const app = Express();
-const port = 3000;
+const port = 3001;
 
 app.use(Express.json());
 
