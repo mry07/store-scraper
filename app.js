@@ -28,6 +28,10 @@ app.post("/store-scraper", async (req, res) => {
   res.send({ status: "ok", data: data[0] });
 });
 
+app.use((req, res, next) => {
+  res.send("Mobile check version is running");
+});
+
 app.listen(port, () => {
   console.log(`server is listening on port ${port}`);
 });
