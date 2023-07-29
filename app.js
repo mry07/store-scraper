@@ -13,10 +13,10 @@ app.post("/store-scraper", async (req, res) => {
 
   switch (platform) {
     case "ios":
-      scraper = AppStoreScraper.app({ id: 6448629664, country: "ID" });
+      scraper = AppStoreScraper.app({ id: 1160056295, country: "ID" });
       break;
     case "android":
-      scraper = GooglePlayScraper.app({ appId: "id.ac.sgu.mobile" });
+      scraper = GooglePlayScraper.app({ appId: "com.mobile.legends" });
       break;
     default:
       return res
