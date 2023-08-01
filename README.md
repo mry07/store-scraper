@@ -2,6 +2,8 @@
 
 Simple application that allows you to retrieve information from various mobile apps on both the Play Store and App Store.
 
+## Installation
+
 ```
 git clone https://github.com/mry07/store-scraper.git
 cd store-scraper
